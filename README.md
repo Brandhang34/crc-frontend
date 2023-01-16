@@ -3,11 +3,13 @@
 
 The [AWS Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/), created by [Forrest Brazeal](https://www.linkedin.com/in/forrestbrazeal), has given me the opportunity to create a resume/portfolio web application on AWS. The challenge consisted of building a personal resume website that would increment the number of users that have visited the page. It also consisted of a backend in which I have created to automate the entire devlopment process using CI/CD and Infrastructure as Code.
 
+![Complete architecture diagram](README_IMGs/architecture.png)
+
 ## Building the frontend infrastructure
 
 In this README, I will go over how I created the frontend for the AWS Resume Challenge.
 
-![Frontend infrastructure](frontend-architecture.png)
+![Frontend infrastructure](README_IMGs/frontend-architecture.png)
 
 The build process consisted of 3 stages:
 
