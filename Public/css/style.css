@@ -307,10 +307,11 @@ img {
 }
 
 .about .row-2 .skills {
-  flex: 1 1 40rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.about .row-2 .skills .progress {
+/* .about .row-2 .skills .progress {
   padding: 1rem 0;
 }
 
@@ -352,6 +353,41 @@ img {
 
 .about .row-2 .skills .progress:nth-child(4) .bar span {
   width: 85%;
+} */
+
+.about .row-2 .skills .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.about .row-2 .skills .container .column {
+  flex: 33.33%;
+  height: 200px;
+  padding: 10px;
+  margin: 5px;
+  /* text-align: center; */
+  background: #fff;
+  padding: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  max-width: 185px;
+  min-width: 185px;
+  max-height: 450px;
+}
+
+.about .row-2 .skills .container .column h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  background: var(--main-color);
+  border-radius: 50rem;
+  text-align: center;
+}
+
+.about .row-2 .skills .container .column li {
+  margin-left: 20px;
+  font-size: 1.3rem;
+  color: #666;
 }
 
 .about .row-2 .box-container {
