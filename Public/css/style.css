@@ -314,7 +314,6 @@ img {
 }
 
 .about .row-2 .skills {
-  display: flex;
   flex-wrap: wrap;
   display: block;
   margin-left: auto;
@@ -381,9 +380,12 @@ img {
   padding: 1.5rem;
   box-shadow: 0 0.5rem 1rem rgba(66, 64, 64, 0.1);
   border-radius: 0.5rem;
-  max-width: 185px;
-  min-width: 185px;
+  max-width: 165px;
+  min-width: 165px;
   max-height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about .row-2 .skills .container .column h3 {
@@ -405,8 +407,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .about .row-2 .box-container .box {
