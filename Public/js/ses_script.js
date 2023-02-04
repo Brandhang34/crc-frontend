@@ -1,7 +1,7 @@
 function submitToAPI(e) {
   e.preventDefault();
   var URL =
-    "https://5lvhykrezk.execute-api.us-east-1.amazonaws.com/Prod/ses_contact_me";
+    "https://16un4jjquc.execute-api.us-east-1.amazonaws.com/prod/ses_contact_me";
 
   var name = document.getElementById("name").value;
   var subject = document.getElementById("subject").value;
