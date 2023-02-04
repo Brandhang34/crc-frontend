@@ -18,7 +18,7 @@ function submitToAPI(e) {
 
   $.ajax({
     type: "POST",
-    url: "https://5lvhykrezk.execute-api.us-east-1.amazonaws.com/Prod/ses_contact_me",
+    url: URL,
     dataType: "json",
     crossDomain: "true",
     contentType: "application/json; charset=utf-8",

@@ -6,7 +6,7 @@ let data = { user: "visitor" };
 
 const counterElement = document.getElementById("counter");
 
-fetch("https://5lvhykrezk.execute-api.us-east-1.amazonaws.com/Prod/trigger", {
+fetch("https://16un4jjquc.execute-api.us-east-1.amazonaws.com/prod/count", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(data),
