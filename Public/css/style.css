@@ -53,11 +53,13 @@ section {
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
+  border-radius: 15px;
+  border: 5px solid #666;
 }
 
 .btn:hover {
   background: #111;
-  letter-spacing: 0.2rem;
+  /* letter-spacing: 0.2rem; */
 }
 
 header {
@@ -235,50 +237,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* .about .row-2 .skills .progress {
-  padding: 1rem 0;
-}
-
-.about .row-2 .skills .progress h3 {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.7rem 0;
-  font-size: 1.7rem;
-  color: #111;
-  font-weight: 400;
-}
-
-.about .row-2 .skills .progress .bar {
-  width: 100%;
-  background: rgb(165, 165, 165);
-  overflow: hidden;
-  height: 1rem;
-  border-radius: 50rem;
-}
-
-.about .row-2 .skills .progress .bar span {
-  display: block;
-  height: 100%;
-  background: var(--main-color);
-  border-radius: 50rem;
-}
-
-.about .row-2 .skills .progress:nth-child(1) .bar span {
-  width: 95%;
-}
-
-.about .row-2 .skills .progress:nth-child(2) .bar span {
-  width: 80%;
-}
-
-.about .row-2 .skills .progress:nth-child(3) .bar span {
-  width: 75%;
-}
-
-.about .row-2 .skills .progress:nth-child(4) .bar span {
-  width: 85%;
-} */
 
 .about .row-2 .skills .container {
   display: flex;
@@ -593,6 +551,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+}
+
+.projects .modal .modal-content button {
+  display: block;
+  /* height: 30%;
+  width: 30%; */
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.projects .modal .modal-content .flex-parent {
+  display: flex;
+}
+
+.projects .modal .modal-content .jc-center {
+  justify-content: center;
 }
 
 /* The Close Button */
