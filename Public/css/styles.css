@@ -11433,15 +11433,19 @@ html {
   max-width: 70%;
 }
 
+.experience .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 .experience .experience-item {
+  flex: 1;
   background-color: #fff;
   border-radius: 0.5rem;
-  max-width: 25rem;
-  /* min-width: 20rem; */
+  max-width: 350px;
   box-shadow: rgba(0, 0, 0, 1) 0 4px 7px;
-  max-height: 425px;
   min-height: 425px;
-  overflow: hidden;
 }
 
 .experience .lead {
