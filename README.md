@@ -20,8 +20,6 @@ The build process consisted of 3 stages:
 
 And here’s the frontend/portflio: [brandonhang.co](https://brandonhang.co)!
 
-![Webpage](README_IMGs/webpage.png)
-
 ## Summary
 
 Although I already had an existing portfolio page, I really enjoyed the learning process of how to integrate the S3 Static website hosting and how its distributed using CloudFront. I look forward to being able to work on more projects and have a deeper understanding as I begin to realize that getting your hands dirty will help obtain the necessary skils to reach your end goal.
