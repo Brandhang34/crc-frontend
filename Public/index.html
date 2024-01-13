@@ -2,478 +2,475 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brandon Hang - Portfolio Website</title>
-
-  <!-- font awesome cdn link  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-  <!-- custom css file link  -->
-  <link rel="stylesheet" href="css/style.css">
-  <link href="css/hamburgers.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Freelancer - Start Bootstrap Theme</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
   <!-- jquery smooth scrolling link -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
 </head>
 
-<body>
-
-  <!-- header section starts  -->
-  <div class="blackbar"></div>
-  <!-- <img class="navbar_profile" draggable="false" src="images/Profile.jpg" alt=""> -->
-  <a href="#home" class="navbar_text">BrandonHang.co</a>
-  <button class="hamburger hamburger--squeeze" type="button" aria-controls="navbar" aria-expanded="false">
-    <span class="hamburger-box">
-      <span class="hamburger-inner">
-        <span class="sr-only"> menu</span>
-      </span>
-    </span>
-  </button>
-
-  <header>
-
-    <a class="logo"><span>Brandon</span> Hang </a>
-    <a href="#home">
-      <img draggable="false" src="images/Profile.jpg" alt="">
-    </a>
-
-    <nav>
-      <ul id="navbar" data-visible="false" class="navbar">
-        <a class="smooth-scroll" href="#about">About</a>
-        <a class="smooth-scroll" href="#resume">Resume</a>
-        <a class="smooth-scroll" href="#portfolio">Portfolio</a>
-        <a class="smooth-scroll" href="#education">Education</a>
-        <a class="smooth-scroll" href="#contact">Contact</a>
-      </ul>
-    </nav>
-    <div class="website-counter">
-      <p>Website Visitor:
-        <span id="counter" class="counter">
-        </span>
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">Brandon Hang</a>
+      <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+              href="#experience">Experience</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+              href="#portfolio">Portfolio</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skillset">Skillset</a>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Masthead-->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+      <!-- Masthead Avatar Image-->
+      <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+      <!-- Masthead Heading-->
+      <h1 class="masthead-heading text-uppercase mb-0">Brandon Hang</h1>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <!-- Masthead Subheading-->
+      <p class="masthead-subheading font-weight-light mb-0">Website Visitor
+      <div id="counter" class="text-secondary counter"></div>
       </p>
     </div>
-
-    <div class="follow">
-      <a href="https://www.facebook.com/BrandonHang34" target="_blank" class="fab fa-facebook-f"></a>
-      <a href="https://www.instagram.com/brandang34" target="_blank" class="fab fa-instagram"></a>
-      <a href="https://twitter.com/Brandhang34" target="_blank" class="fab fa-twitter"></a>
-      <a href="https://github.com/Brandhang34" target="_blank" class="fab fa-github"></a>
-      <a href="https://www.linkedin.com/in/brandon-hang-a8a2b220b/" target="_blank" class="fab fa-linkedin"></a>
-    </div>
-
   </header>
-
-  <!-- header section ends -->
-
-  <!-- home section starts  -->
-
-  <section id="home" class="home">
-
-    <div class="content">
-      <h3> Brandon<span> Hang </span></h3>
-      <p class="info"> Welcome to my Portfolio Website </p>
-      <a href="#about" class="btn">About Me</a>
-    </div>
-    </div>
-
-  </section>
-
-  <!-- home section ends -->
-
-  <!-- about section starts  -->
-
-  <section class="about" id="about">
-
-    <h1 class="heading"> About <span> me </span> </style>
-    </h1>
-    <div class="row-1">
-      <div class="content">
-        <h3> My Name is Brandon Hang </h3>
-        <p>A passionate Platform engineer, Solutions architect and Sys Admin. IT graduate from California State
-          University, Fresno. Currently working on obtaining a masters in Cyber Security and working at Meta as a
+  <!-- About Section-->
+  <section class="page-section mb-0" id="about">
+    <div class="container">
+      <!-- About Section Heading-->
+      <h2 class="page-section-heading text-center text-secondary text-uppercase">About</h2>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-dark">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <!-- About Section Content-->
+      <div class="mx-auto about">
+        <p class="lead">A passionate Platform engineer, Solutions architect and Sys Admin. IT graduate from California State
+          University, Fresno. Currently working at Meta as a
           Platform Engineer.</p>
 
         </br>
-        <p> Have experience with cloud computing (AWS), Docker container microservices, Infrastructure as code, CICD
+        <p class="lead"> Have experience with cloud computing (AWS), Docker container microservices, Infrastructure as code, CICD
           using
           Jenkins, code pipeline and github actions. Also have knowledge on networking, creating web apps, and
           automation scripting.</p>
 
         </br>
-        <p> I enjoy building new relationships and finding more efficient solutions to ongoing problems. On my free
+        <p class="lead"> I enjoy building new relationships and finding more efficient solutions to ongoing problems. On my free
           time, I play tennis, video games, work on my home network lab, and recently picked up 3d printing. </p>
-        <!-- <div class="box-container"> -->
-        <!--   <div class="box"> -->
-        <!--     <p> <span> Age : </span> 21 </p> -->
-        <!--     <p> <span> Gender : </span> Male </p> -->
-        <!--     <p> <span> Language : </span> English </p> -->
-        <!--     <p> <span> Work : </span> Systems Administrator </p> -->
-        <!--   </div> -->
-        <!--   <div class="box"> -->
-        <!--     <p> <span> Phone : </span> +1 559-300-9564 </p> -->
-        <!--     <p> <span> Email : </span> brandonvhang@gmail.com </p> -->
-        <!--     <p> <span> Country : </span> United States </p> -->
-        <!--   </div> -->
-        <!-- </div> -->
-        <a href="Resume/Resume.pdf" target="_blank" class="btn">Download Resume</a>
       </div>
 
     </div>
+    </div>
   </section>
-
-  <!-- Resume section starts  -->
-
-  <section class="resume" id="resume">
-
-    <h1 class="heading"> <span> my </span> resume </h1>
-
+  <!-- Experiences Section-->
+  <section class="page-section bg-primary mb-0  experience" id="experience">
     <div class="container">
-      <div class="left-container">
-        Experience Entry
+      <!-- About Section Heading-->
+      <h2 class="page-section-heading text-center text-white text-uppercase">Experience</h2>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+        <div class="divider-custom-line"></div>
       </div>
-      <div class="right-container">
-        <div class="top-right-container">
-          Education entry
+      <!-- About Section Content-->
+      <div class="row mx-auto">
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="experience-item p-3 mx-auto">
+            <h4>Field Operation Technician</h4>
+            <p class="experience-item-info">California State University, Fresno<span class="year">21 - 22</span></p>
+            <ul class="lead">
+                <li>Pulled/ Fabricated Cat6 Cables</li>
+                <li>Provided network access for various devices (computers, VoIP phones, WAPs, teaching stations, fire alarms, and security devices)</li>
+                <li>Installed network/server-side equipment</li>
+                <li>provided topology solutions within campus infrastructures</li>
+            </ul>
+          </div>
         </div>
-        <div class="bottom-right-container">
-          Skills entry
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="experience-item p-3 mx-auto">
+            <h4>Systems Administrator</h4>
+            <p class="experience-item-info">California State University, Fresno<span class="year">22 - 23</span></p>
+            <ul class="lead">
+                <li>Patched Windows and Linux machines using Microsoft SCCM and AWS Systems Manager</li>
+                <li>Developed automation scripts using Bash, Python, and integration tools</li>
+                <li>Managed users through directory services (LDAP, Windows Active Directory, Google Admin)</li>
+                <li>Assisted in the development of AWS cloud infrastructure</li>
+            </ul>
+          </div>
         </div>
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="experience-item p-3 mx-auto">
+            <h4>Platform Engineer</h4>
+            <p class="experience-item-info">Crystal Equation @ Meta <span class="year">23 - Present</span></p>
+              <ul class="lead">
+                <li>Created Virtual Desktop Infrastructures and related tools</li>
+                <li>Leveraged Group Policies for restrictiing or accessing resources</li>
+                <li>Wrote Terraform IaC modules to maintain consistent infrastructure</li>
+                <li>Supported Linux OS qualifications for users primary devices</li>
+                <li>Orchestrated Machines by using Chef cookbooks and Chocolatey packages</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Download Resume Button -->
+      <div class="text-center mt-4">
+        <a href="assets/resume/Resume.pdf" class="btn btn-outline-light">
+          <i class="fas fa-download me-2"></i>
+          Download Resume
+        </a>
       </div>
     </div>
-    <!-- <div class="box-container"> -->
-    <!---->
-    <!--   <div class="box"> -->
-    <!--     <div class="content"> -->
-    <!--       <span> 2023 - present </span> -->
-    <!--       <h3>Platform Engineer</h3> -->
-    <!--       <p>tbd</p> -->
-    <!--     </div> -->
-    <!--   </div> -->
-    <!---->
-    <!--   <div class="box"> -->
-    <!--     <div class="content"> -->
-    <!--       <span> 2022 - 2023 </span> -->
-    <!--       <h3>System Administrator</h3> -->
-    <!--       <p>Met the continuous student and staff needs by customizing and upgrading operating/related systems. -->
-    <!--         Developed scripts using Bash, Python, and integration tools to enable automation and improve business -->
-    <!--         effciency. Utilize directory services such as LDAP, Windows Acive Directory, and Google Admin in a command -->
-    <!--         line and GUI interface. Provided assistance with the development/migration of the AWS cloud infrastructure. -->
-    <!--       </p> -->
-    <!--     </div> -->
-    <!--   </div> -->
-    <!---->
-    <!--   <div class="box"> -->
-    <!--     <div class="content"> -->
-    <!--       <span> 2021 - 2022 </span> -->
-    <!--       <h3>Field Operation Technician</h3> -->
-    <!--       <p>Pulled/Fabricated many Cat6 Cables, providing network access for devices such as computers, monitors, VoIP -->
-    <!--         phones, wireless access points, teaching stations, fire alarms, and security devices, and installed -->
-    <!--         network/server-side equipment, including UPS systems, patch panels, and punch down blocks. Understood and -->
-    <!--         provided topology solutions within the many infrastructures of the campus by working alongside the network -->
-    <!--         engineers.</p> -->
-    <!--     </div> -->
-    <!--   </div> -->
-    <!-- </div> -->
   </section>
 
-  <!-- Resume section ends -->
-
-  <!-- portfolio section starts  -->
-
-  <section class="portfolio" id="portfolio">
-
-    <h1 class="heading"> <span> my </span> portfolio </h1>
+  <!-- Portfolio Section-->
+  <section class="page-section portfolio" id="portfolio">
     <div class="container">
-      <div class="divider-custom">
-        <h2>Projects</h2>
+      <!-- Portfolio Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-dark">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+        <div class="divider-custom-line"></div>
       </div>
-      <div class="projects">
-        <div class="box-container">
-          <!-- NOTE: When editing/adding projects, the "info" icon will need JS variables -->
-          <div class="box">
-            <a href="#" id="homelabBtn">
-              <img draggable="false" src="images/Server.jpg" alt="">
-              <h3>Homelab</h3>
-            </a>
-          </div>
-
-          <div class="box">
-            <a href="#" id="threetierBtn">
-              <img draggable="false" src="images/3tierAWS.jpg" alt="">
-              <h3> AWS 3 tier Web App </h3>
-            </a>
-          </div>
-
-          <div class="box">
-            <a href="#" id="serverlessportfolioBtn">
-              <img draggable="false" src="images/CloudResumeChallenge.png" alt="">
-              <h3> Cloud Resume Challenge</h3>
-            </a>
+      <!-- Portfolio Grid Items-->
+      <div class="row justify-content-center">
+        <!-- Portfolio Item 1-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <div class="img-box">
+              <img class="img-fluid" src="assets/img/portfolio/server.png" alt="..." /> </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="certifications">
-      <div class="container">
-        <div class="divider-custom">
-          <h2> Certifications </h2>
-        </div>
-
-        <div class="box-container">
-          <div class="box">
-            <a href="certs/AWS_CCP.pdf" target="_blank">
-              <img draggable="false" src="images/AWS_CCP.png" class="cert-icon" alt="">
-            </a>
+        <!-- Portfolio Item 2-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <div class="img-box">
+              <img class="img-fluid" src="assets/img/portfolio/3tierWeb.jpg" alt="..." />
+            </div>
           </div>
-          <div class="box">
-            <a href="certs/AWS_SAA.pdf" target="_blank">
-              <img draggable="false" src="images/AWS_SAA.png" class="cert-icon" alt="">
-            </a>
+        </div>
+        <!-- Portfolio Item 3-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/crc.jpg" alt="..." />
           </div>
-          <!--   <div class="box"> -->
-          <!--     <a href="certs/AWS_SAA.pdf" target="_blank"> -->
-          <!--       <img draggable="false" src="images/AWS_DVA.png" class="cert-icon" alt=""> -->
-          <!--     </a> -->
-          <!--   </div> -->
-          <!--   <div class="box"> -->
-          <!--     <a href="certs/AWS_SAA.pdf" target="_blank"> -->
-          <!--       <img draggable="false" src="images/CC_ISC2.png" class="cert-icon" alt=""> -->
-          <!--     </a> -->
-          <!--   </div> -->
-          <!--   <div class="box"> -->
-          <!--     <a href="certs/AWS_SAA.pdf" target="_blank"> -->
-          <!--       <img draggable="false" src="images/COMPTIA_CYSAP.png" class="cert-icon" alt=""> -->
-          <!--     </a> -->
-          <!--   </div> -->
-          <!--   <div class="box"> -->
-          <!--     <a href="certs/AWS_SAA.pdf" target="_blank"> -->
-          <!--       <img draggable="false" src="images/COMPTIA_PENTEST.png" class="cert-icon" alt=""> -->
-          <!--     </a> -->
-          <!--   </div> -->
-          <!--   <div class="box"> -->
-          <!--     <a href="certs/AWS_SAA.pdf" target="_blank"> -->
-          <!--       <img draggable="false" src="images/HCTA-03.png" class="cert-icon" alt=""> -->
-          <!--     </a> -->
-          <!--   </div> -->
-          <!-- </div> -->
-        </div>
-      </div>
-
-
-    </div>
-
-    <!-- ****************This is for the MODAL text****************-->
-
-    <div id="homelabModal" class="modal">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h3>Homelab</h3>
-        <img draggable="false" src="images/Server.jpg">
-        <p>
-          In this project, I’ve setup my personal ‘home lab’ as a way to obtain new skills and understand new
-          technologies. As seen in the picture, the ‘server’ isn’t a production
-          system and it allows me to apply as many configurations as I want. I typically spend the majority of my free
-          time working on this system and have gained beneficial knowledge
-          that has been applied to the work environment.
-        </p>
-        <br>
-        <br>
-        <p>
-          There are other systems involved such as a Raspberry Pi, Network Attached Storage system and more! If you
-          would like to know more about my home lab, please visit the link below where I go more in detail about what
-          I'm hosting.
-        </p>
-        <div class="flex-parent jc-center">
-          <button type="blog" class="btn"
-            onclick="window.location.href='https://docs.google.com/document/d/1VAdKLZ0LLdHlp30dWBVKxkvuPU4_0Ych6Trw0-qH7F8/edit?usp=sharing';">
-            Blog Post </button>
-        </div>
-      </div>
-    </div>
-
-    <div id="threetierModal" class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h3>3 Tier AWS Wordpress site</h3>
-        <img draggable="false" src="images/3tierAWS.jpg" alt="" />
-        <p>In this project, I’ve created and deployed a completely Dynamic word press website on Amazon Web Services
-          (AWS). Utilizing virtual private clouds (public/private subnets),
-          security groups, EC2, RDS, application load balancer, route 53, auto scaling group, EFS and more. Launching
-          all of these services to create the architecture was very tedious and expensive,
-          so I’ve also created a cloud formation template so that whenever I want to show it off or have it to be used
-          by someone else, it will be readily available.
-        </p>
-      </div>
-    </div>
-
-    <div id="CloudResumeChallengeModal" class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h3>Cloud Resume Challenge</h3>
-        <img draggable="false" src="images/CloudResumeChallenge.png" alt="" />
-        <p>
-          The Cloud Resume Challenge designed by Forrest Brazeal, is a hands-on project in which assists those who have
-          cloud certifications and are seeking cloud roles, or challenge
-          those who are already in the cloud industry. The challenge itself contains many procedures that help you
-          obtain the necessary skills that real cloud and DevOps engineers use in their day to day jobs.
-        </p>
-        <br>
-        <br>
-        <p>
-          This portfolio website that you are on is being powered by the Cloud Resume Challenge. It consists of multiple
-          chunks (front & back end), and is hosted on AWS.
-          For more information, you can visit my GitHub repositories where I introduce the front-end and back-end
-          portions of the project.
-          You can also visit the blog where I talk about my experience going through the project.
-        </p>
-        <div class="flex-parent jc-center">
-          <button type="blog" class="btn" data-inline="true"
-            onclick="window.location.href='https://dev.to/brandhang34/cloud-resume-challenge-17kj';"> Blog Post
-          </button>
-          <button type="blog" class="btn" data-inline="true"
-            onclick="window.location.href='https://github.com/Brandhang34/crc-frontend';"> Front-end GitHub </button>
-          <button type="blog" class="btn" data-inline="true"
-            onclick="window.location.href='https://github.com/Brandhang34/crc-backend';"> Back-end GitHub </button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- projects section ends -->
-
-  <!-- education section starts -->
-  <section class="education" id="education">
-    <h1 class="heading"><span> Education </span> and <span>Skills</span></h1>
-
-    <div class="col-1">
-      <p class="info">California State University, Fresno</p>
-    </div>
-    <div class="row-2">
-
-      <div class="skills">
-        <div class="container">
-          <div class="column">
-            <h3>Programming</h3>
-            <br>
-            <ul>
-              <li>Python</li>
-              <li>C++</li>
-              <li>Bash</li>
-              <li>HTML/CSS</li>
-              <li>Javascript</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-          <div class="column">
-            <h3>Administration</h3>
-            <br>
-            <ul>
-              <li>Windows</li>
-              <li>Linux</li>
-              <!-- <li>VMware vSphere</li> -->
-              <li>Networking</li>
-              <li>Security</li>
-              <li>Ansible</li>
-              <li>Troubleshooting</li>
-            </ul>
-          </div>
-          <div class="column">
-            <h3>Cloud</h3>
-            <br>
-            <ul>
-              <li>AWS</li>
-              <li>Terraform (IaC)</li>
-              <li>Git/GitHub</li>
-              <li>Unit Testing</li>
-              <li>CI/CD Pipelines</li>
-              <!-- <li>Docker/Kubernetes</li> -->
-            </ul>
-          </div>
-          <div class="column">
-            <h3>Other</h3>
-            <br>
-            <ul>
-              <li>Virtualization</li>
-              <li>Containerization</li>
-              <li>Serverless</li>
-              <li>Web Services</li>
-              <li>REST API</li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-
-  <!-- education section ends -->
-  <!-- contact section starts  -->
-
-  <section class="contact" id="contact">
-
-    <h1 class="heading"> contact <span> me </span> </h1>
-
-    <div class="icons-container">
-      <div class="icons">
-        <i class="fas fa-envelope"></i>
-        <h3>My email</h3>
-        <p>brandonvhang@gmail.com</p>
+  <section class="page-section bg-primary skillset" id="skillset">
+    <div class="container">
+      <!-- Skills Section Heading-->
+      <h2 class="page-section-heading text-center text-white text-uppercase">Skillset</h2>
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+        <div class="divider-custom-line"></div>
       </div>
 
-      <div class="icons">
-        <i class="fas fa-location-dot"></i>
-        <h3>Location</h3>
-        <p>Visalia, CA</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <form id="myForm" action="" method="post">
-
-        <input type="text" id="name" class="box" placeholder="name" required>
-        <input type="email" id="email" class="box" placeholder="email" required>
-        <input type="subject" id="subject" class="box" placeholder="subject" required>
-
-        <textarea id="message" placeholder="message" cols="30" rows="10"></textarea>
-        <div class="submit">
+      <div class="col mx-auto">
+        <div class="mb-5">
+          <div class="skillset-item p-3 mx-auto">
+          <h4>Skills</h4>
           <div class="center">
-            <button type="submit" class="btn" onclick="submitToAPI(event)" id="submit"> Submit </button>
+            <div>
+              <img draggable="false" src="assets/img/Skills/AWS.svg" class="cert-icon" alt="">
+            </div>
+            <div>
+              <img draggable="false" src="assets/img/Skills/python.svg" class="cert-icon" alt="">
+            </div>
+            <div>
+              <img draggable="false" src="assets/img/Skills/bash.svg" class="cert-icon" alt="">
+            </div>
+            <div>
+              <img draggable="false" src="assets/img/Skills/windows.svg" class="cert-icon" alt="">
+            </div>
+            <div>
+              <img draggable="false" src="assets/img/Skills/linux.png" class="cert-icon" alt="">
+            </div>
+            <div>
+              <img draggable="false" src="assets/img/Skills/ansible.svg" class="cert-icon" alt="">
+            </div>
+            <div>
+              <img draggable="false" src="assets/img/Skills/terraform.svg" class="cert-icon" alt="">
+            </div>
+            <div>
+              <img draggable="false" src="assets/img/Skills/docker.svg" class="cert-icon" alt="">
+            </div>
           </div>
         </div>
-      </form>
+      </div>
+        <div class="mb-5">
+          <div class="skillset-item p-3 mx-auto">
+            <h4>Certifications</h4>
+            <div class="center">
+            <div class="hvr-reveal">
+              <a href="assets/certs/AWS_SAA.pdf" target="_blank">
+                <img draggable="false" src="assets/img/certs/AWS_SAA_175x175.png" class="cert-icon" alt="">
+              </a>
+            </div>
+            <div class="hvr-reveal">
+              <a href="assets/certs/AWS_CCP.pdf" target="_blank">
+                <img draggable="false" src="assets/img/certs/AWS_CCP_175x175.png" class="cert-icon" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-
-  <!-- contact section ends -->
-  <!-- custom js file link  -->
-
-  <!-- JQuery Code For Contact Me Form -->
-
-  <script type="text/javascript">
-    if (window.history.replaceState) {
-      window.history.replaceState(null, null, window.location.href);
-    }
-  </script>
+  <!-- Contact Section-->
+  <section class="page-section text-black" id="contact">
+    <div class="container">
+      <!-- Contact Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <!-- Icon Divider-->
+        <div class="divider-custom divider-dark">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+      <!-- Contact Section Form-->
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+          <form id="contactForm" action="" method="post">
+            <!-- Name input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="name" type="text" placeholder="Enter your name..." required/>
+              <label for="name">Full name</label>
+            </div>
+            <!-- Email address input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="email" type="email" placeholder="name@example.com" required/>
+              <label for="email">Email address</label>
+              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+            </div>
+            <!-- Subject input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="subject" type="subject" placeholder="Subject" required/>
+              <label for="subject">Subject</label>
+            </div>
+            <!-- Message input-->
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
+                style="height: 10rem" required></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div class="contact-btn">
+              <button class="btn btn-primary btn-xl" id="submitButton" type="submit"
+                onclick="submitToAPI(event)">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer-->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <!-- Footer Social Icons-->
+        <div>
+          <h4 class="text-uppercase mb-4">Socials</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Brandhang34" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/BrandonHang34" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/brandang34" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/Brandhang34" target="_blank"><i class="fab fa-fw fa-twitter"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/brandon-hang-a8a2b220b/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a> -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Portfolio Modals-->
+  <!-- Portfolio Modal 1-->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+            aria-label="Close"></button></div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-dark">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/server.png" alt="..." />
+                <!-- Portfolio Modal - Text-->
+                <div class="portfolio-modal-text">
+                  <p class="lead">In this project, I’ve setup my personal ‘home lab’ as a way to obtain new skills and understand new
+                    technologies. As seen in the picture, the ‘server’ isn’t a production
+                    system and it allows me to apply as many configurations as I want. I typically spend the majority of my free
+                    time working on this system and have gained beneficial knowledge
+                    that has been applied to the work environment.
+                  </p>
+                  <br>
+                  <p class="lead">
+                    There are other systems involved such as a Raspberry Pi, Network Attached Storage system and more! If you
+                    would like to know more about my home lab, please visit the link below where I go more in detail about what
+                    I'm hosting.
+                  </p>
+                </div>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Modal 2-->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+            aria-label="Close"></button></div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-dark">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/3tierWeb.jpg" alt="..." />
+                <!-- Portfolio Modal - Text-->
+                <p class="lead">In this project, I’ve created and deployed a completely Dynamic word press website on Amazon Web Services
+                  (AWS). Utilizing virtual private clouds (public/private subnets),
+                  security groups, EC2, RDS, application load balancer, route 53, auto scaling group, EFS and more. Launching
+                  all of these services to create the architecture was very tedious and expensive,
+                  so I’ve also created a cloud formation template so that whenever I want to show it off or have it to be used
+                  by someone else, it will be readily available.</p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Modal 3-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+            aria-label="Close"></button></div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-dark">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/crc.jpg" alt="..." />
+                <!-- Portfolio Modal - Text-->
+                <p class="lead">
+                  The Cloud Resume Challenge designed by Forrest Brazeal, is a hands-on project in which assists those who have
+                  cloud certifications and are seeking cloud roles, or challenge
+                  those who are already in the cloud industry. The challenge itself contains many procedures that help you
+                  obtain the necessary skills that real cloud and DevOps engineers use in their day to day jobs.
+                  </p>
+                  <br>
+                <p class="lead">
+                  This portfolio website that you are on is being powered by the Cloud Resume Challenge. It consists of multiple
+                  chunks (front & back end), and is hosted on AWS.
+                  For more information, you can visit my GitHub repositories where I introduce the front-end and back-end
+                  portions of the project.
+                  You can also visit the blog where I talk about my experience going through the project.
+                  </p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/modal_script.js"></script>
-  <!-- <script src="js/user_counter_script.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
   <script src="js/ses_script.js"></script>
-  <script src="js/nav-mobile.js"></script>
-
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-  </script>
-
+  <!-- <script src="js/user_counter_script.js"></script> -->
+  <script src="js/animated_scroll.js"></script>
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
