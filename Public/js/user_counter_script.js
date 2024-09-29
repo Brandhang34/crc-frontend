@@ -3,7 +3,7 @@
 
 const counterElement = document.getElementById("counter");
 
-fetch("https://16un4jjquc.execute-api.us-east-1.amazonaws.com/prod/count", {
+fetch("https://1ym6ve9jo1.execute-api.us-east-1.amazonaws.com/prod/count", {
   method: "POST",
 })
   .then((res) => res.json())
